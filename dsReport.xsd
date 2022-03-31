@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsReport" targetNamespace="http://tempuri.org/dsReport.xsd" xmlns:mstns="http://tempuri.org/dsReport.xsd" xmlns="http://tempuri.org/dsReport.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsReport" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsReport" msprop:Generator_DataSetName="dsReport" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dataBuku" msprop:Generator_UserTableName="dataBuku" msprop:Generator_RowDeletedName="dataBukuRowDeleted" msprop:Generator_RowChangedName="dataBukuRowChanged" msprop:Generator_RowClassName="dataBukuRow" msprop:Generator_RowChangingName="dataBukuRowChanging" msprop:Generator_RowEvArgName="dataBukuRowChangeEvent" msprop:Generator_RowEvHandlerName="dataBukuRowChangeEventHandler" msprop:Generator_TableClassName="dataBukuDataTable" msprop:Generator_TableVarName="tabledataBuku" msprop:Generator_RowDeletingName="dataBukuRowDeleting" msprop:Generator_TablePropName="dataBuku">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Kode" msprop:Generator_UserColumnName="Kode" msprop:Generator_ColumnVarNameInTable="columnKode" msprop:Generator_ColumnPropNameInRow="Kode" msprop:Generator_ColumnPropNameInTable="KodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NamaBuku" msprop:Generator_UserColumnName="NamaBuku" msprop:Generator_ColumnVarNameInTable="columnNamaBuku" msprop:Generator_ColumnPropNameInRow="NamaBuku" msprop:Generator_ColumnPropNameInTable="NamaBukuColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Penulis" msprop:Generator_UserColumnName="Penulis" msprop:Generator_ColumnVarNameInTable="columnPenulis" msprop:Generator_ColumnPropNameInRow="Penulis" msprop:Generator_ColumnPropNameInTable="PenulisColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Penelaah" msprop:Generator_UserColumnName="Penelaah" msprop:Generator_ColumnVarNameInTable="columnPenelaah" msprop:Generator_ColumnPropNameInRow="Penelaah" msprop:Generator_ColumnPropNameInTable="PenelaahColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TahunKisi" msprop:Generator_UserColumnName="TahunKisi" msprop:Generator_ColumnVarNameInTable="columnTahunKisi" msprop:Generator_ColumnPropNameInRow="TahunKisi" msprop:Generator_ColumnPropNameInTable="TahunKisiColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Target" msprop:Generator_UserColumnName="Target" msprop:Generator_ColumnVarNameInTable="columnTarget" msprop:Generator_ColumnPropNameInRow="Target" msprop:Generator_ColumnPropNameInTable="TargetColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dataPenulis" msprop:Generator_UserTableName="dataPenulis" msprop:Generator_RowDeletedName="dataPenulisRowDeleted" msprop:Generator_TableClassName="dataPenulisDataTable" msprop:Generator_RowChangedName="dataPenulisRowChanged" msprop:Generator_RowClassName="dataPenulisRow" msprop:Generator_RowChangingName="dataPenulisRowChanging" msprop:Generator_RowEvArgName="dataPenulisRowChangeEvent" msprop:Generator_RowEvHandlerName="dataPenulisRowChangeEventHandler" msprop:Generator_TablePropName="dataPenulis" msprop:Generator_TableVarName="tabledataPenulis" msprop:Generator_RowDeletingName="dataPenulisRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Kode" msprop:Generator_UserColumnName="Kode" msprop:Generator_ColumnPropNameInRow="Kode" msprop:Generator_ColumnVarNameInTable="columnKode" msprop:Generator_ColumnPropNameInTable="KodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Jml" msprop:Generator_UserColumnName="Jml" msprop:Generator_ColumnPropNameInRow="Jml" msprop:Generator_ColumnVarNameInTable="columnJml" msprop:Generator_ColumnPropNameInTable="JmlColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Mdl" msprop:Generator_UserColumnName="Mdl" msprop:Generator_ColumnPropNameInRow="Mdl" msprop:Generator_ColumnVarNameInTable="columnMdl" msprop:Generator_ColumnPropNameInTable="MdlColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Keterangan" msprop:Generator_UserColumnName="Keterangan" msprop:Generator_ColumnPropNameInRow="Keterangan" msprop:Generator_ColumnVarNameInTable="columnKeterangan" msprop:Generator_ColumnPropNameInTable="KeteranganColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dataFakultas" msprop:Generator_UserTableName="dataFakultas" msprop:Generator_RowDeletedName="dataFakultasRowDeleted" msprop:Generator_TableClassName="dataFakultasDataTable" msprop:Generator_RowChangedName="dataFakultasRowChanged" msprop:Generator_RowClassName="dataFakultasRow" msprop:Generator_RowChangingName="dataFakultasRowChanging" msprop:Generator_RowEvArgName="dataFakultasRowChangeEvent" msprop:Generator_RowEvHandlerName="dataFakultasRowChangeEventHandler" msprop:Generator_TablePropName="dataFakultas" msprop:Generator_TableVarName="tabledataFakultas" msprop:Generator_RowDeletingName="dataFakultasRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Kode" msprop:Generator_UserColumnName="Kode" msprop:Generator_ColumnPropNameInRow="Kode" msprop:Generator_ColumnVarNameInTable="columnKode" msprop:Generator_ColumnPropNameInTable="KodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Jml" msprop:Generator_UserColumnName="Jml" msprop:Generator_ColumnPropNameInRow="Jml" msprop:Generator_ColumnVarNameInTable="columnJml" msprop:Generator_ColumnPropNameInTable="JmlColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TglTerima" msprop:Generator_UserColumnName="TglTerima" msprop:Generator_ColumnPropNameInRow="TglTerima" msprop:Generator_ColumnVarNameInTable="columnTglTerima" msprop:Generator_ColumnPropNameInTable="TglTerimaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Status" msprop:Generator_UserColumnName="Status" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInTable="StatusColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dataPenelaah" msprop:Generator_UserTableName="dataPenelaah" msprop:Generator_RowDeletedName="dataPenelaahRowDeleted" msprop:Generator_TableClassName="dataPenelaahDataTable" msprop:Generator_RowChangedName="dataPenelaahRowChanged" msprop:Generator_RowClassName="dataPenelaahRow" msprop:Generator_RowChangingName="dataPenelaahRowChanging" msprop:Generator_RowEvArgName="dataPenelaahRowChangeEvent" msprop:Generator_RowEvHandlerName="dataPenelaahRowChangeEventHandler" msprop:Generator_TablePropName="dataPenelaah" msprop:Generator_TableVarName="tabledataPenelaah" msprop:Generator_RowDeletingName="dataPenelaahRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Kode" msprop:Generator_UserColumnName="Kode" msprop:Generator_ColumnPropNameInRow="Kode" msprop:Generator_ColumnVarNameInTable="columnKode" msprop:Generator_ColumnPropNameInTable="KodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Jml" msprop:Generator_UserColumnName="Jml" msprop:Generator_ColumnPropNameInRow="Jml" msprop:Generator_ColumnVarNameInTable="columnJml" msprop:Generator_ColumnPropNameInTable="JmlColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TglKirim" msdata:Caption="TglTerima" msprop:Generator_UserColumnName="TglKirim" msprop:Generator_ColumnPropNameInRow="TglKirim" msprop:Generator_ColumnVarNameInTable="columnTglKirim" msprop:Generator_ColumnPropNameInTable="TglKirimColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Status" msprop:Generator_UserColumnName="Status" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInTable="StatusColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dataPusjian" msprop:Generator_UserTableName="dataPusjian" msprop:Generator_RowDeletedName="dataPusjianRowDeleted" msprop:Generator_TableClassName="dataPusjianDataTable" msprop:Generator_RowChangedName="dataPusjianRowChanged" msprop:Generator_RowClassName="dataPusjianRow" msprop:Generator_RowChangingName="dataPusjianRowChanging" msprop:Generator_RowEvArgName="dataPusjianRowChangeEvent" msprop:Generator_RowEvHandlerName="dataPusjianRowChangeEventHandler" msprop:Generator_TablePropName="dataPusjian" msprop:Generator_TableVarName="tabledataPusjian" msprop:Generator_RowDeletingName="dataPusjianRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Kode" msprop:Generator_UserColumnName="Kode" msprop:Generator_ColumnPropNameInRow="Kode" msprop:Generator_ColumnVarNameInTable="columnKode" msprop:Generator_ColumnPropNameInTable="KodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Jml" msprop:Generator_UserColumnName="Jml" msprop:Generator_ColumnPropNameInRow="Jml" msprop:Generator_ColumnVarNameInTable="columnJml" msprop:Generator_ColumnPropNameInTable="JmlColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TglKirim" msdata:Caption="TglTerima" msprop:Generator_UserColumnName="TglKirim" msprop:Generator_ColumnPropNameInRow="TglKirim" msprop:Generator_ColumnVarNameInTable="columnTglKirim" msprop:Generator_ColumnPropNameInTable="TglKirimColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="dataBukuKey1">
+      <xs:selector xpath=".//mstns:dataBuku" />
+      <xs:field xpath="mstns:Kode" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="dataBuku_dataPenulis" msdata:parent="dataBuku" msdata:child="dataPenulis" msdata:parentkey="Kode" msdata:childkey="Kode" msprop:Generator_UserRelationName="dataBuku_dataPenulis" msprop:Generator_RelationVarName="relationdataBuku_dataPenulis" msprop:Generator_UserChildTable="dataPenulis" msprop:Generator_UserParentTable="dataBuku" msprop:Generator_ParentPropName="dataBukuRow" msprop:Generator_ChildPropName="GetdataPenulisRows" />
+      <msdata:Relationship name="dataBuku_dataFakultas" msdata:parent="dataBuku" msdata:child="dataFakultas" msdata:parentkey="Kode" msdata:childkey="Kode" msprop:Generator_UserRelationName="dataBuku_dataFakultas" msprop:Generator_RelationVarName="relationdataBuku_dataFakultas" msprop:Generator_UserChildTable="dataFakultas" msprop:Generator_UserParentTable="dataBuku" msprop:Generator_ParentPropName="dataBukuRow" msprop:Generator_ChildPropName="GetdataFakultasRows" />
+      <msdata:Relationship name="dataBuku_dataPusjian" msdata:parent="dataBuku" msdata:child="dataPusjian" msdata:parentkey="Kode" msdata:childkey="Kode" msprop:Generator_UserRelationName="dataBuku_dataPusjian" msprop:Generator_RelationVarName="relationdataBuku_dataPusjian" msprop:Generator_UserChildTable="dataPusjian" msprop:Generator_UserParentTable="dataBuku" msprop:Generator_ParentPropName="dataBukuRow" msprop:Generator_ChildPropName="GetdataPusjianRows" />
+      <msdata:Relationship name="dataBuku_dataPenelaah" msdata:parent="dataBuku" msdata:child="dataPenelaah" msdata:parentkey="Kode" msdata:childkey="Kode" msprop:Generator_UserRelationName="dataBuku_dataPenelaah" msprop:Generator_RelationVarName="relationdataBuku_dataPenelaah" msprop:Generator_UserChildTable="dataPenelaah" msprop:Generator_UserParentTable="dataBuku" msprop:Generator_ParentPropName="dataBukuRow" msprop:Generator_ChildPropName="GetdataPenelaahRows" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>
